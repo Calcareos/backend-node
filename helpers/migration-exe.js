@@ -10,8 +10,8 @@ const srv = {
                 knexInitial.destroy();
                 console.log(`Base de datos ${config.DATABASE.DB} creada!`);
             });
-
             await knexDB.migrate.latest()
+
 
         } catch (error) {
         }

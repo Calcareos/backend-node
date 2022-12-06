@@ -16,7 +16,7 @@ const { authToken } = require('./middlewares/auth');
 // INICIAMOS EXPRESS
 const app = express();
 app.use(cors());
-app.use(expressValidator());
+//app.use(expressValidator());
 app.use(express.urlencoded({ extended: true, limit: '50mb', parameterLimit: 50000 }));
 app.use(express.json({ limit: '50mb' }));
 

@@ -39,3 +39,4 @@ app.use("/api/auth", require('./routes/auth.routes'));
 app.use("/api/usuario", require('./routes/usuario.routes'));
 app.use("/api/modulo", require('./routes/modulo.routes'));
 app.use("/api/opcion", require('./routes/opcion.routes'));
+app.use("/api/corte", require('./routes/corte.routes'));
